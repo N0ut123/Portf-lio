@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matheus dos Santos | Portfolio </title>
+  <meta name="description" content="Portfólio da desenvolvedora front-end Matheus dos Santos para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="./src/imagens/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+      <link rel="stylesheet" href="./src/styles/reset.css">
+      <link rel="stylesheet" href="./src/styles/home.css">
+  
+      <script src="./src/scripts/main.js" defer></script>
+
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="src/imagens/logo/Nout.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+      <p>Matheus dos santos, Maranhão-MA, Desenvolvedor Front-end e UX/UI.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/N0ut123" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/matheus-dos-santos-silva-3926a0269" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/n0ut.0/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <!--- adicina um quadro que ira passar alguns dos meus projetos--->
+    <div class="main__content2">
+      <iframe src="https://www.youtube.com/embed/HXKz2-Sohfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="src/imagens/tecnologias/Angular.svg" alt="Logo Angular">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="src/imagens/tecnologias/icons8-javascript-50.png" alt="Logo TypeScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="src/imagens/tecnologias/icons8-react-native-50.png" alt="Logo Bootstrap">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="src/imagens/tecnologias/TypeScript.svg" alt="Logo SASS">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" id="project1-img" src="src/imagens/Home.png" alt="Capa Josi's Box">
+        <div class="card__body">
+          <h3 class="card__title">Multiverso Spider-Man</h3>
+          <p class="card__description">Site de propaganda</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem de favoritos;</li>
+            <li class="card__item">Carrinho de compras;</li>
+            <li class="card__item">Filtragem por preço e categoria.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="src/imagens/tecnologias/html.png" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="src/imagens/tecnologias/css-3.png" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="src/imagens/tecnologias/icons8-javascript-50.png" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn" onclick="window.open('https://github.com/N0ut123/Spider-man.git', '_blank')">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" id="project2-img" src="src/imagens/Mundo Normal.png" alt="Capa Archstil">
+        <div class="card__body">
+          <h3 class="card__title">Archstil Blog</h3>
+          <p class="card__description">A história por trás dos Estilos Arquitetônicos.</p>
+          <ul class="card__list">
+            <li class="card__item">Postagens relacionadas e em destaque;</li>
+            <li class="card__item">Filtragem por tags e categorias;</li>
+            <li class="card__item">Biografia do autor.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./src/imagens/tecnologias/html.png" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./src/imagens/tecnologias/css-3.png" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./src/imagens/tecnologias/icons8-javascript-50.png" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn" onclick="window.open('https://github.com/N0ut123/inverted-world.git', '_blank')">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <!---<div class="projects__card">
+        <img class="card__cover" id="project3-img" src="assets/images/projects/games-store.jpg" alt="Capa Games Store">
+        <div class="card__body">
+          <h3 class="card__title">Games Store</h3>
+          <p class="card__description">Loja online de Games.</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem de favoritos;</li>
+            <li class="card__item">Carrinho de compras;</li>
+            <li class="card__item">Filtragem por preço e categoria.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div> --->
+      <a href="https://github.com/N0ut123?tab=projects">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="src/imagens/foto-de-perfil1.png" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Matheus dos santos. Apaixonado pela sensação que a arte, juntamente com a tecnologia, traz. Atualmente formado em Análise e Desenvolvimento de Software, busco me aperfeiçoar a cada dia por meio de cursos e novas aprendizagens, sempre ampliando meu conhecimento para atuar com excelência na área.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/matheus-dos-santos-silva-3926a0269/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Analise e Desenvolvimento de Software</h4>
+          <span>Abr 2024 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Estácio de Sá</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Graduação</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>qual e a experiencia </h4>
+          <span>o local que adquirio a experiencia</span>
+          <span>sobre a experiencia
+          </span>
+          <ul class="about__list">
+            <li class="about__item">oque fazia na experiencia;</li>
+            <li class="about__item">oque fazia na experiencia;</li>
+            <li class="about__item">oque fazia na experiencia;</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>nome de algum curso</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                onde fez o curso
+              </p>
+              <p>
+                sobre oque e, e oque fazia no curso
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>nome de algum curso</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                onde fez o curso
+              </p>
+              <p>
+                sobre oque e, e oque fazia no curso
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>nome de algum curso</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                onde fez o curso
+              </p>
+              <p>
+               sobre oque e, e oque fazia no curso
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/N0ut123" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/matheus-dos-santos-silva-3926a0269" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.instagram.com/n0ut.0/" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:mathequias23@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">mathequias23@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2023. Portfólio desenvolvido por 
+      <a href="https://github.com/N0ut123" target="_blank">Matheus dos santos</a>.
+    </p>
+  </footer>
+</body>
+</html>
